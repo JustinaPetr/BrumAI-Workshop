@@ -1,6 +1,8 @@
 slots:
   location:
     type: text
+    
+
 
 
 intents:
@@ -14,12 +16,12 @@ entities:
 
 templates:
   utter_greet:
-    - "Hello, how can I help you?"
+    - 'Hello! How can I help?'
   utter_goodbye:
-    - "See you later."
-    - "Bye bye"
+    - 'Talk to you later.'
+    - 'Bye bye :('
   utter_ask_location:
-    - "What location?"
+    - 'In what location?'
 
 actions:
  - utter_greet
