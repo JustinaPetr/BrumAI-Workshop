@@ -17,8 +17,8 @@ class ActionWeather(Action):
         client = ApixuClient(api_key)
         
         #TODO: retrieve the slot value and make an api call
-        loc = tracker.get_slot('location')
-        current = client.getCurrentWeather(q = loc)
+        loc = 
+        current = 
         
         country = current['location']['country']
         city = current['location']['name']
@@ -29,7 +29,6 @@ class ActionWeather(Action):
         wind_mph = current['current']['wind_mph']
         
         #TODO: create a response message and dispatch it to the output channel
-        response = "It is currently {} in {}. The temperature is {}, humidity is {} and the wind speed is {}.".(condition, city, temperature_c, humidity, wind_mph)
-        dispatcher.utter_message(response)
+        response = 
 
         return [SlotSet("location", loc)]
