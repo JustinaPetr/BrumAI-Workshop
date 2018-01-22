@@ -95,6 +95,9 @@ Follow the instructions to install the required libraries and tools which will b
 </p>
 	
 
+	
+9. Get an apixu api Key by singing up at https://www.apixu.com/. This key will be used to make an api call which will return weather conditions in real time.
+	
 If you want, during this workshop you can use an IDE of your choice or you can stick to simple text editors (for example Notepad++). Both options will be just fine.	
 
 If you have any questions or issues regarding the installation, feel free to message me directly or drop me an email to justina.petraityte@gmail.com and I will be glad to help you out :) 

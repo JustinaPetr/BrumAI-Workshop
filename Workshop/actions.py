@@ -13,7 +13,7 @@ class ActionWeather(Action):
 
     def run(self, dispatcher, tracker, domain):
         from apixu.client import ApixuClient, ApixuException
-        api_key = '0348f304ef804ad9826142149180201'
+        api_key = '' #Procide your apixu Key here
         client = ApixuClient(api_key)
         
         #TODO: retrieve the slot value and make an api call
